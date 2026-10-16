@@ -1,0 +1,1079 @@
+<!DOCTYPE html><html class="dark scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>LiveDATA - Premier AI, Data Science &amp; GenAI Institute | Dehradun &amp; Online</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS with Forms and Container Queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-container-lowest": "#080e1d",
+            "surface-dim": "#0d1322",
+            "tertiary": "#4edea3",
+            "primary-fixed-dim": "#4cd7f6",
+            "error-container": "#93000a",
+            "on-tertiary-fixed-variant": "#005236",
+            "tertiary-fixed-dim": "#4edea3",
+            "on-primary-fixed": "#001f26",
+            "secondary": "#b4c5ff",
+            "surface-bright": "#33394a",
+            "on-surface": "#dde2f8",
+            "inverse-on-surface": "#2a3040",
+            "on-error": "#690005",
+            "on-primary-fixed-variant": "#004e5c",
+            "surface": "#0d1322",
+            "on-surface-variant": "#bcc9cd",
+            "primary": "#4cd7f6",
+            "inverse-primary": "#00687a",
+            "on-primary": "#003640",
+            "on-tertiary-fixed": "#002113",
+            "outline-variant": "#3d494c",
+            "surface-container-highest": "#2f3445",
+            "on-background": "#dde2f8",
+            "error": "#ffb4ab",
+            "primary-container": "#06b6d4",
+            "tertiary-container": "#1bbd85",
+            "on-tertiary-container": "#00452e",
+            "on-secondary-fixed-variant": "#003ea8",
+            "background": "#0d1322",
+            "surface-container-low": "#151b2b",
+            "secondary-fixed-dim": "#b4c5ff",
+            "on-secondary-fixed": "#00174b",
+            "on-error-container": "#ffdad6",
+            "secondary-fixed": "#dbe1ff",
+            "surface-variant": "#2f3445",
+            "on-primary-container": "#00424f",
+            "surface-container-high": "#242a3a",
+            "surface-container": "#191f2f",
+            "on-tertiary": "#003824",
+            "on-secondary-container": "#cdd7ff",
+            "on-secondary": "#002a78",
+            "primary-fixed": "#acedff",
+            "tertiary-fixed": "#6ffbbe",
+            "outline": "#869397",
+            "secondary-container": "#0053db",
+            "surface-tint": "#4cd7f6",
+            "inverse-surface": "#dde2f8"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin": "3rem",
+            "margin-mobile": "1.25rem",
+            "space-sm": "0.5rem",
+            "space-xl": "2.5rem",
+            "space-lg": "1.5rem",
+            "space-xs": "0.25rem",
+            "space-md": "1rem",
+            "gutter-mobile": "1rem",
+            "gutter": "1.5rem"
+          },
+          "fontFamily": {
+            "display-hero": ["Plus Jakarta Sans"],
+            "label-mono-md": ["JetBrains Mono"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "body-sm": ["Inter"],
+            "headline-xl": ["Plus Jakarta Sans"],
+            "label-ui": ["Inter"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "headline-xl-mobile": ["Plus Jakarta Sans"],
+            "label-mono-sm": ["JetBrains Mono"],
+            "body-lg": ["Inter"],
+            "display-hero-mobile": ["Plus Jakarta Sans"],
+            "body-md": ["Inter"],
+            "headline-sm": ["Plus Jakarta Sans"]
+          },
+          "fontSize": {
+            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "label-mono-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "700" }],
+            "label-ui": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "label-mono-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "500" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .glow-cyan {
+      box-shadow: 0 0 24px rgba(6, 182, 212, 0.25);
+    }
+    .glow-cyan-hover:hover {
+      box-shadow: 0 0 30px rgba(6, 182, 212, 0.4);
+    }
+    .glow-emerald {
+      box-shadow: 0 0 16px rgba(16, 185, 129, 0.25);
+    }
+    .grid-pattern {
+      background-size: 32px 32px;
+      background-image: 
+        linear-gradient(to right, rgba(61, 73, 76, 0.12) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(61, 73, 76, 0.12) 1px, transparent 1px);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container relative min-h-screen">
+<!-- TOP NAVIGATION BAR (Shared Component Anchored) -->
+<header class="bg-surface-container-lowest/80 backdrop-blur-md dark:bg-surface-container-lowest/80 text-primary dark:text-primary docked full-width top-0 sticky z-50 shadow-2xl shadow-surface-container-lowest/50 border-b border-outline-variant/30">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="flex items-center gap-3 group" href="#">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high border border-primary/30 flex items-center justify-center glow-cyan transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">terminal</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md font-bold tracking-tight text-on-surface dark:text-on-surface flex items-center gap-1">
+            Live<span class="text-primary">DATA</span>
+<span class="w-2 h-2 rounded-full bg-primary animate-ping inline-block ml-0.5"></span>
+</span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary tracking-widest uppercase">Tech Institute</span>
+</div>
+</a>
+<!-- Desktop Nav Links -->
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-primary dark:text-primary font-label-ui text-label-ui border-b-2 border-primary pb-1 transition-colors duration-200" href="#courses">Courses</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors font-label-ui text-label-ui" href="#modes">Learning Modes</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors font-label-ui text-label-ui" href="#why-us">Why LiveDATA</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors font-label-ui text-label-ui" href="#placements">Placements</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors font-label-ui text-label-ui" href="#contact">Contact</a>
+</nav>
+<!-- Action Cluster -->
+<div class="flex items-center gap-3">
+<div class="hidden xl:flex items-center gap-4 text-xs font-label-mono-sm text-on-surface-variant mr-2">
+<a class="flex items-center gap-1.5 hover:text-tertiary transition-colors" href="https://wa.me/919045667030" target="_blank">
+<span class="material-symbols-outlined text-tertiary text-base" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span>+91 9045667030</span>
+</a>
+<span class="text-outline-variant">|</span>
+<a class="flex items-center gap-1.5 hover:text-primary transition-colors" href="tel:+917906644799">
+<span class="material-symbols-outlined text-primary text-base">call</span>
+<span>+91 7906644799</span>
+</a>
+</div>
+<a class="bg-gradient-to-r from-primary-container to-secondary-container hover:from-primary hover:to-secondary text-surface-container-lowest font-bold font-label-ui text-label-ui px-5 py-2.5 rounded-lg glow-cyan active:scale-95 transition-all duration-200 flex items-center gap-1.5 shadow-lg" href="#enquiry-form">
+<span>Enquire Now</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- HERO SECTION WITH INTEGRATED CONVERSION FORM -->
+<section class="relative pt-12 pb-24 overflow-hidden grid-pattern">
+<!-- Ambient Blur Spheres -->
+<div class="absolute -top-32 left-1/4 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -right-24 w-80 h-80 bg-secondary-container/15 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="max-w-5xl mx-auto text-center space-y-8 relative z-10">
+  <!-- Left Hero Content (7 Cols) -->
+  <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container-high border border-primary/25 backdrop-blur-md mx-auto shadow-lg">
+    <span class="relative flex h-2.5 w-2.5">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-tertiary"></span>
+    </span>
+    <span class="font-label-mono-sm text-label-mono-sm text-primary tracking-tight">
+      ⚡ Dehradun Campus &amp; Online Batches • 100% Placement Support &amp; Mock Interviews
+    </span>
+  </div>
+
+  <!-- Right Column: Interactive Student Enquiry Form Card (5 Cols) -->
+  <h1 class="font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface font-extrabold tracking-tight max-w-4xl mx-auto">
+    Master <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary-fixed-dim to-secondary">AI, Data Science &amp; Python</span> with Real-World Projects
+  </h1>
+
+  <!-- Subheadline -->
+  <p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto leading-relaxed">
+    Industry-aligned training with weekly tests, 1-on-1 mock interviews, and dedicated job placement support in Dehradun &amp; Online. Build production-grade agents and predictive intelligence models.
+  </p>
+
+  <!-- Action CTA cluster -->
+  <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
+    <a class="bg-gradient-to-r from-primary-container to-secondary-container text-surface-container-lowest font-label-ui text-label-ui px-8 py-3.5 rounded-lg font-bold glow-cyan transition-all duration-200 hover:-translate-y-0.5 flex items-center gap-2 shadow-lg" href="#courses">
+      <span class="material-symbols-outlined text-lg">school</span>
+      Explore Courses
+    </a>
+    <a class="bg-surface-container-high border border-outline-variant/60 hover:border-primary text-on-surface font-label-ui text-label-ui px-7 py-3.5 rounded-lg transition-all duration-200 flex items-center gap-2 glow-cyan-hover" href="#enquiry-form">
+      <span class="material-symbols-outlined text-lg text-tertiary">event_available</span>
+      Book Free Demo Session
+    </a>
+    <a class="bg-surface-container-lowest/80 border border-primary/30 text-primary hover:text-white hover:bg-primary/20 font-label-ui text-label-ui px-6 py-3.5 rounded-lg transition-colors flex items-center gap-2" href="#enquiry-form">
+      <span class="material-symbols-outlined text-lg">chat</span>
+      Admissions Enquiry
+    </a>
+  </div>
+
+  <!-- Trust Indicators Bento Strip -->
+  <div class="pt-8 max-w-2xl mx-auto border-t border-outline-variant/20 grid grid-cols-3 gap-4 text-center">
+    <div class="space-y-1">
+      <div class="flex items-center justify-center text-tertiary gap-1">
+        <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+        <span class="font-headline-sm text-headline-sm font-bold text-on-surface">4.9 / 5</span>
+      </div>
+      <p class="font-label-mono-sm text-label-mono-sm text-on-surface-variant">Student Rating</p>
+    </div>
+    <div class="space-y-1 border-x border-outline-variant/20 px-4">
+      <div class="font-headline-sm text-headline-sm font-bold text-primary">500+</div>
+      <p class="font-label-mono-sm text-label-mono-sm text-on-surface-variant">Alumni Placed</p>
+    </div>
+    <div class="space-y-1">
+      <div class="font-headline-sm text-headline-sm font-bold text-secondary">40+</div>
+      <p class="font-label-mono-sm text-label-mono-sm text-on-surface-variant">Industry Capstones</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- COURSE TRACKS SECTION -->
+<section class="py-24 bg-surface-container-lowest relative border-t border-outline-variant/20" id="courses">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary font-label-mono-sm text-label-mono-sm">
+<span>CURRICULUM ARCHITECTURE</span>
+</div>
+<h2 class="font-headline-xl-mobile md:font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface font-bold tracking-tight">
+          Industry-Ready Course Tracks
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Engineered around modern enterprise tech stacks with weekly milestones, live debugging labs, and verified portfolio projects.
+        </p>
+</div>
+<!-- Bento Grid Course Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Track 1: Agentic AI & Gen AI -->
+<div class="bg-surface-container-low border border-primary/30 rounded-xl p-6 relative flex flex-col justify-between hover:border-primary transition-all duration-300 hover:-translate-y-1 group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/15 text-primary border border-primary/30 font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="material-symbols-outlined text-xs">neurology</span>
+                FLAGSHIP
+              </span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+                8 Weeks / 40 Hours
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md font-semibold text-on-surface group-hover:text-primary transition-colors">
+              Artificial Intelligence (Agentic AI &amp; Generative AI)
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Build autonomous AI agents, multi-agent orchestrations, enterprise RAG pipelines, and customized domain LLMs.
+            </p>
+<div class="pt-2">
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant uppercase tracking-wider block mb-2">Core Tech Stack</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-primary font-label-mono-sm">LangGraph</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-primary font-label-mono-sm">CrewAI</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-primary font-label-mono-sm">AutoGen</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-primary font-label-mono-sm">LLMs &amp; RAG</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-primary font-label-mono-sm">Fine-tuning</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="text-xs font-label-mono-sm text-on-surface-variant">Campus &amp; Online</span>
+</div>
+<button class="text-primary hover:text-primary-fixed font-label-ui text-label-ui font-semibold inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform" onclick="prefillCourse('Artificial Intelligence (Agentic AI &amp; Gen AI)')">
+              Enquire for Course <span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Track 2: Machine Learning -->
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-6 relative flex flex-col justify-between hover:border-primary/60 transition-all duration-300 hover:-translate-y-1 group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-surface-container-high text-secondary border border-outline-variant font-label-mono-sm text-label-mono-sm">
+                CORE ML
+              </span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+                8 Weeks / 40 Hours
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md font-semibold text-on-surface group-hover:text-primary transition-colors">
+              Machine Learning (M/L)
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              End-to-end mathematical grounding, model training, feature engineering, and high-performance predictive systems.
+            </p>
+<div class="pt-2">
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant uppercase tracking-wider block mb-2">Core Tech Stack</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Algorithms</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Model Building</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Predictive Modeling</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">ML Workflows</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="text-xs font-label-mono-sm text-on-surface-variant">Campus &amp; Online</span>
+</div>
+<button class="text-primary hover:text-primary-fixed font-label-ui text-label-ui font-semibold inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform" onclick="prefillCourse('Machine Learning')">
+              Enquire for Course <span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Track 3: Data Analytics -->
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-6 relative flex flex-col justify-between hover:border-primary/60 transition-all duration-300 hover:-translate-y-1 group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant border border-outline-variant font-label-mono-sm text-label-mono-sm">
+                ANALYTICS
+              </span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+                8 Weeks / 40 Hours
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md font-semibold text-on-surface group-hover:text-primary transition-colors">
+              Data Analytics
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Synthesize big enterprise tables, run statistical tests, craft SQL queries, and deliver data-backed business insights.
+            </p>
+<div class="pt-2">
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant uppercase tracking-wider block mb-2">Core Tech Stack</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Data Cleaning</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Statistical Analysis</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Advanced SQL</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">EDA</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="text-xs font-label-mono-sm text-on-surface-variant">Campus &amp; Online</span>
+</div>
+<button class="text-primary hover:text-primary-fixed font-label-ui text-label-ui font-semibold inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform" onclick="prefillCourse('Data Analytics')">
+              Enquire for Course <span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Track 4: Python Development -->
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-6 relative flex flex-col justify-between hover:border-primary/60 transition-all duration-300 hover:-translate-y-1 group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-surface-container-high text-primary font-label-mono-sm text-label-mono-sm">
+                PROGRAMMING
+              </span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+                8 Weeks / 40 Hours
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md font-semibold text-on-surface group-hover:text-primary transition-colors">
+              Python Development
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              From modular clean-code fundamentals and OOP concepts to FastAPI backend services and asynchronous architectures.
+            </p>
+<div class="pt-2">
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant uppercase tracking-wider block mb-2">Core Tech Stack</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Python Basics</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">OOP Concepts</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">API Development</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Automation</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="text-xs font-label-mono-sm text-on-surface-variant">Campus &amp; Online</span>
+</div>
+<button class="text-primary hover:text-primary-fixed font-label-ui text-label-ui font-semibold inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform" onclick="prefillCourse('Python')">
+              Enquire for Course <span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Track 5: Data Visualization -->
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-6 relative flex flex-col justify-between hover:border-primary/60 transition-all duration-300 hover:-translate-y-1 group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-surface-container-high text-tertiary font-label-mono-sm text-label-mono-sm">
+                BI &amp; DASHBOARDS
+              </span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+                8 Weeks / 40 Hours
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md font-semibold text-on-surface group-hover:text-primary transition-colors">
+              Data Visualization
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Turn intricate database rows into executive cockpits, interactive BI dashboards, and persuasive data stories.
+            </p>
+<div class="pt-2">
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant uppercase tracking-wider block mb-2">Core Tech Stack</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Business Intelligence</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">PowerBI</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Tableau</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Visual Storytelling</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="text-xs font-label-mono-sm text-on-surface-variant">Campus &amp; Online</span>
+</div>
+<button class="text-primary hover:text-primary-fixed font-label-ui text-label-ui font-semibold inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform" onclick="prefillCourse('Data Visualization')">
+              Enquire for Course <span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Track 6: General / Custom AI Track -->
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-6 relative flex flex-col justify-between hover:border-primary/60 transition-all duration-300 hover:-translate-y-1 group">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-surface-container-high text-secondary font-label-mono-sm text-label-mono-sm">
+                CUSTOM TRACK
+              </span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+                Custom Duration
+              </span>
+</div>
+<h3 class="font-headline-md text-headline-md font-semibold text-on-surface group-hover:text-primary transition-colors">
+              General / Custom AI Track
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Designed for working engineers, career switchers, and enterprise cohorts seeking customized combination modules.
+            </p>
+<div class="pt-2">
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface-variant uppercase tracking-wider block mb-2">Core Tech Stack</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Modular Syllabi</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Enterprise Ops</span>
+<span class="px-2 py-1 rounded bg-surface-container text-xs text-on-surface font-label-mono-sm">Flexible Timings</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="text-xs font-label-mono-sm text-on-surface-variant">Campus &amp; Online</span>
+</div>
+<button class="text-primary hover:text-primary-fixed font-label-ui text-label-ui font-semibold inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform" onclick="prefillCourse('General / Multiple Courses')">
+              Enquire for Course <span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- WHY LIVEDATA: 4-COLUMN BENEFIT GRID -->
+<section class="py-24 bg-surface relative" id="why-us">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/20 border border-secondary/30 text-secondary font-label-mono-sm text-label-mono-sm">
+<span>THE LIVEDATA ADVANTAGE</span>
+</div>
+<h2 class="font-headline-xl-mobile md:font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface font-bold tracking-tight">
+          Engineered for Career Outcomes
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          We strip away passive video watching in favor of aggressive hands-on problem solving, measurable weekly reviews, and hiring pipelines.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Pillar 1 -->
+<div class="p-6 bg-surface-container-low border border-outline-variant/30 rounded-xl space-y-4 hover:border-primary/50 transition">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary border border-outline-variant/40">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">code_blocks</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">1. Real-Time Projects</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Directly author production-grade code, deploy microservices, and build verifiable GitHub repositories instead of static slide presentations.
+          </p>
+<div class="text-xs font-label-mono-sm text-primary">✓ 40+ Industry Capstones</div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-6 bg-surface-container-low border border-outline-variant/30 rounded-xl space-y-4 hover:border-primary/50 transition">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-tertiary border border-outline-variant/40">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">monitoring</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">2. Weekly Tests</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Continuous diagnostic evaluations every Saturday to identify code efficiency gaps, algorithmic errors, and track individual learning velocity.
+          </p>
+<div class="text-xs font-label-mono-sm text-tertiary">✓ Detailed Scorecards</div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-6 bg-surface-container-low border border-outline-variant/30 rounded-xl space-y-4 hover:border-primary/50 transition">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary border border-outline-variant/40">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">record_voice_over</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">3. 1-on-1 Mock Interviews</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Simulate realistic tech company loops: live coding screens, system architecture interrogation, and behavioral clarity drills.
+          </p>
+<div class="text-xs font-label-mono-sm text-secondary">✓ Senior Staff Engineers</div>
+</div>
+<!-- Pillar 4 -->
+<div class="p-6 bg-surface-container-low border border-outline-variant/30 rounded-xl space-y-4 hover:border-primary/50 transition">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary-fixed-dim border border-outline-variant/40">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">4. Placement Support</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            High-impact ATS-optimized resume revamping, LinkedIn re-branding, direct corporate referrals, and guaranteed interview opportunities.
+          </p>
+<div class="text-xs font-label-mono-sm text-primary">✓ 100% Dedicated Support</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FLEXIBLE LEARNING MODES -->
+<section class="py-24 bg-surface-container-lowest border-t border-outline-variant/20 relative" id="modes">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary font-label-mono-sm text-label-mono-sm">
+<span>FLEXIBILITY WITHOUT COMPROMISE</span>
+</div>
+<h2 class="font-headline-xl-mobile md:font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface font-bold tracking-tight">
+          Two Modes. One Rigorous Standard.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Whether you learn best side-by-side in our high-tech Dehradun labs or from anywhere via live cloud classes.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Offline Mode Card -->
+<div class="bg-surface-container-low border border-primary/30 rounded-2xl p-8 relative overflow-hidden">
+<div class="absolute -right-12 -top-12 w-48 h-48 bg-primary/10 rounded-full blur-2xl"></div>
+<div class="relative z-10 space-y-6">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/15 text-primary text-xs font-label-mono-sm">
+<span class="material-symbols-outlined text-sm">location_on</span>
+                OFFLINE IN-PERSON
+              </span>
+<span class="font-label-mono-sm text-label-mono-sm text-tertiary">Limited 20 Seats/Cohort</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+              Dehradun Campus Lab
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Full immersion in our dedicated Patel Nagar workstation lab. Direct desk-side guidance, peer hackathons, and high-speed multi-screen developer desks.
+            </p>
+<div class="space-y-3 pt-2">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">home_pin</span>
+<div>
+<strong class="font-label-ui text-label-ui text-on-surface block">Campus Address:</strong>
+<span class="font-body-sm text-body-sm text-on-surface-variant">75/6, LiveDATA, Patel Nagar, Dehradun, Uttarakhand</span>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary text-xl">devices</span>
+<div>
+<strong class="font-label-ui text-label-ui text-on-surface block">Lab Hardware:</strong>
+<span class="font-body-sm text-body-sm text-on-surface-variant">High-GPU workstation access for deep learning and agent simulations</span>
+</div>
+</div>
+</div>
+<div class="pt-4">
+<a class="w-full inline-flex items-center justify-center gap-2 py-3 px-6 rounded-lg bg-surface-container-high hover:bg-surface-bright text-primary border border-primary/30 font-label-ui text-label-ui font-semibold transition" href="#enquiry-form" onclick="prefillMode('Offline (Dehradun Campus)')">
+<span>Reserve Offline Campus Seat</span>
+<span class="material-symbols-outlined text-base">east</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Online Mode Card -->
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-2xl p-8 relative overflow-hidden">
+<div class="absolute -right-12 -top-12 w-48 h-48 bg-secondary/10 rounded-full blur-2xl"></div>
+<div class="relative z-10 space-y-6">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/15 text-secondary text-xs font-label-mono-sm">
+<span class="material-symbols-outlined text-sm">wifi</span>
+                ONLINE LIVE HYBRID
+              </span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary">All-India Access</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+              Online Live Interactive
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Interactive live cohort video sessions led by senior instructors with real-time audio Q&amp;A, remote pair-programming, and recorded archives.
+            </p>
+<div class="space-y-3 pt-2">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl">cloud_sync</span>
+<div>
+<strong class="font-label-ui text-label-ui text-on-surface block">Cloud Labs:</strong>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Browser-based hosted Jupyter &amp; Docker runtime environments</span>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary text-xl">forum</span>
+<div>
+<strong class="font-label-ui text-label-ui text-on-surface block">Live Doubt Resolution:</strong>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Dedicated Slack channel &amp; instant evening screen sharing sessions</span>
+</div>
+</div>
+</div>
+<div class="pt-4">
+<a class="w-full inline-flex items-center justify-center gap-2 py-3 px-6 rounded-lg bg-surface-container-high hover:bg-surface-bright text-secondary border border-secondary/30 font-label-ui text-label-ui font-semibold transition" href="#enquiry-form" onclick="prefillMode('Online (Live Interactive)')">
+<span>Join Online Live Batch</span>
+<span class="material-symbols-outlined text-base">east</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ALUMNI SUCCESS & REVIEWS SHOWCASE -->
+<section class="py-24 bg-surface relative" id="placements">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-tertiary/10 border border-tertiary/25 text-tertiary font-label-mono-sm text-label-mono-sm">
+<span>ALUMNI PLACEMENT SUCCESS</span>
+</div>
+<h2 class="font-headline-xl-mobile md:font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface font-bold tracking-tight">
+          Trained at LiveDATA. Hired at Top Tech.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Hear from graduates who transformed their careers from foundational coders to production data scientists and AI engineers.
+        </p>
+</div>
+<!-- Alumni Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+<!-- Alumnus 1: Rahul Sharma -->
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-6 sm:p-8 flex flex-col justify-between hover:border-primary/50 transition">
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<img alt="Rahul Sharma, LiveDATA Alumnus and Data Scientist at TechLogix" class="w-16 h-16 rounded-full object-cover border-2 border-primary/50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA534AlPTQk_U6P6hm7uA0z6vVpuB9wuGbjxlM2rdapvkHQPeCbTICbNwLAnof7yG8hy8YUgOTPBzuF9n6UEcvySdMRl3wUZYPqaAgzBWYsOGNjtRYsfd2r6eqGrC6ne1w1gKsftkZeY6cNLD7fO3BqtL3sW27crjPDQqK2L7oX2fxoL47MmEg6L-wGdJY5B3ZHaTioKkzJYjwjXtVk6qDeA6doY_5LtZaeNUmhtL92MATFIimiHw4p">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Rahul Sharma</h4>
+<p class="font-label-mono-sm text-label-mono-sm text-primary">Data Scientist @ TechLogix</p>
+<div class="flex items-center text-tertiary text-xs gap-1 mt-0.5">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span>Verified Placement • 140% Salary Hike</span>
+</div>
+</div>
+</div>
+<blockquote class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed">
+              “The sheer focus on practical real-world capstone projects made the whole difference. Instead of theoretical code snippets, I had 4 full predictive ML pipelines running on GitHub. The weekly tests kept me on my toes, and the interview prep at Patel Nagar campus directly cracked my TechLogix placement.”
+            </blockquote>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center justify-between text-xs font-label-mono-sm">
+<span class="text-on-surface-variant">Track: Data Science &amp; ML</span>
+<span class="text-tertiary">Batch of 2024</span>
+</div>
+</div>
+<!-- Alumna 2: Priya Rawat -->
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-6 sm:p-8 flex flex-col justify-between hover:border-tertiary/50 transition">
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<img alt="Priya Rawat, LiveDATA Alumna and AI Engineer at AI Innovations Hub" class="w-16 h-16 rounded-full object-cover border-2 border-tertiary/50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQLBDJ9e-z5oWd0AAFjcfx04NnGE1LbqKYH2Iw6SmW1jBQ0QnPpTDwb3pKHxyxfKsKZ0XG5SfFB6zula1NtOJ3SnLQ-qflymkl_lyS59pDsb-GKDs7pRLqzOGOKA-1VyZW3vjFm5irzWCZQxePPuLbXfIrE25BWx3KroQCML6SVut7e3PmfQ0paAV22fC0SnMDAmf9Gi4PRTUfHEwWLKtAmJE_zwZrhmhNyedexC6rRGmQGNuKopfV">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Priya Rawat</h4>
+<p class="font-label-mono-sm text-label-mono-sm text-tertiary">AI Engineer @ AI Innovations Hub</p>
+<div class="flex items-center text-tertiary text-xs gap-1 mt-0.5">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span>Verified Placement • Agentic AI Track</span>
+</div>
+</div>
+</div>
+<blockquote class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed">
+              “The Agentic AI curriculum is unlike anything else taught in Uttarakhand. We built production LangGraph agents, CrewAI multi-agent swarms, and RAG architectures from scratch. The 1-on-1 mock interviews mirrored actual corporate hiring loops. I had two offers in hand right after course completion!”
+            </blockquote>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center justify-between text-xs font-label-mono-sm">
+<span class="text-on-surface-variant">Track: Agentic AI &amp; GenAI</span>
+<span class="text-tertiary">Batch of 2024</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CAMPUS & CONTACT SECTION -->
+<section class="py-24 bg-surface-container-lowest border-t border-outline-variant/20 relative grid-pattern overflow-hidden" id="enquiry-section">
+  <!-- Ambient Blur Spheres -->
+  <div class="absolute -top-24 left-1/4 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute bottom-0 right-10 w-96 h-96 bg-tertiary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <!-- Left Column: High-Impact Admissions Pitch & Guarantees (5 Cols) -->
+      <div class="lg:col-span-5 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 border border-primary/25 text-primary font-label-mono-sm text-label-mono-sm">
+          <span class="material-symbols-outlined text-sm">how_to_reg</span>
+          <span class="">DIRECT ADMISSIONS DESK</span>
+        </div>
+        <h2 class="font-headline-xl-mobile md:font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface font-bold tracking-tight">
+          Ready to Launch Your AI &amp; Data Career?
+        </h2>
+        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Get in touch directly with our Patel Nagar senior faculty and admissions counselors. We'll evaluate your tech goals, arrange a live code walkthrough, and schedule your free demo class.
+        </p>
+
+        <!-- Value Checklist -->
+        <div class="space-y-3.5 pt-2">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-tertiary/10 border border-tertiary/30 flex items-center justify-center text-tertiary">
+              <span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+            </div>
+            <span class="font-body-sm text-body-sm text-on-surface">100% Guaranteed 1-on-1 career counseling with senior mentor</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-primary/10 border border-primary/30 flex items-center justify-center text-primary">
+              <span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+            </div>
+            <span class="font-body-sm text-body-sm text-on-surface">Detailed syllabus breakdown &amp; portfolio project roadmaps</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-secondary/10 border border-secondary/30 flex items-center justify-center text-secondary">
+              <span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+            </div>
+            <span class="font-body-sm text-body-sm text-on-surface">Flexible batch options: Offline Lab or Live Interactive Cloud</span>
+          </div>
+        </div>
+
+        <!-- Immediate Contact Details -->
+        <div class="p-5 rounded-xl bg-surface-container border border-outline-variant/30 space-y-3 mt-6">
+          <span class="font-label-mono-sm text-label-mono-sm text-primary uppercase tracking-wider block">Prefer Direct Call or WhatsApp?</span>
+          <div class="flex flex-wrap items-center gap-4">
+            <a class="flex items-center gap-1.5 text-tertiary font-label-mono-sm text-sm hover:underline font-semibold" href="https://wa.me/919045667030" target="_blank">
+              <span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">chat</span>
+              <span class="">+91 9045667030</span>
+            </a>
+            <span class="text-outline-variant">|</span>
+            <a class="flex items-center gap-1.5 text-primary font-label-mono-sm text-sm hover:underline font-semibold" href="tel:+917906644799">
+              <span class="material-symbols-outlined text-base">call</span>
+              <span class="">+91 7906644799</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Interactive Student Enquiry Form Card (7 Cols) -->
+      <div class="lg:col-span-7" id="enquiry-form">
+        <div class="bg-surface-container-low/95 backdrop-blur-xl border border-outline-variant/40 rounded-xl p-6 md:p-8 shadow-2xl relative glow-cyan">
+          <!-- Form Header Badge -->
+          <div class="flex items-center justify-between pb-4 border-b border-outline-variant/30 mb-6">
+            <div>
+              <span class="font-label-mono-sm text-label-mono-sm text-primary uppercase tracking-wider block">Direct Admissions Desk</span>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Request Callback &amp; Free Demo</h3>
+            </div>
+            <span class="px-2.5 py-1 rounded bg-tertiary/10 border border-tertiary/30 text-tertiary font-label-mono-sm text-label-mono-sm">
+              Next Batch Soon
+            </span>
+          </div>
+
+          <!-- Form Body -->
+          <form class="space-y-4" id="whatsappLeadForm" onsubmit="handleEnquirySubmit(event)">
+            <div>
+              <label class="block font-label-ui text-label-ui text-on-surface-variant mb-1.5" for="studentName">
+                Full Name <span class="text-error">*</span>
+              </label>
+              <input class="w-full bg-surface-container-lowest border border-outline-variant/60 rounded-lg px-4 py-2.5 text-on-surface placeholder-on-surface-variant/40 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition font-body-md text-body-md" id="studentName" placeholder="e.g. Aman Negi" required="" type="text">
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block font-label-ui text-label-ui text-on-surface-variant mb-1.5" for="studentPhone">
+                  Phone Number <span class="text-error">*</span>
+                </label>
+                <input class="w-full bg-surface-container-lowest border border-outline-variant/60 rounded-lg px-4 py-2.5 text-on-surface placeholder-on-surface-variant/40 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition font-body-md text-body-md" id="studentPhone" maxlength="10" pattern="[0-9]{10}" placeholder="10-digit Mobile" required="" type="tel">
+              </div>
+              <div>
+                <label class="block font-label-ui text-label-ui text-on-surface-variant mb-1.5" for="studentEmail">
+                  Email Address
+                </label>
+                <input class="w-full bg-surface-container-lowest border border-outline-variant/60 rounded-lg px-4 py-2.5 text-on-surface placeholder-on-surface-variant/40 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition font-body-md text-body-md" id="studentEmail" placeholder="name@email.com" type="email">
+              </div>
+            </div>
+            <div>
+              <label class="block font-label-ui text-label-ui text-on-surface-variant mb-1.5" for="courseTrack">
+                Interested Course Track <span class="text-error">*</span>
+              </label>
+              <select class="w-full bg-surface-container-lowest border border-outline-variant/60 rounded-lg px-4 py-2.5 text-on-surface focus:border-primary focus:ring-1 focus:ring-primary outline-none transition font-body-md text-body-md" id="courseTrack" required="">
+                <option value="Artificial Intelligence (Agentic AI &amp; Gen AI)">Artificial Intelligence (Agentic AI &amp; Gen AI)</option>
+                <option value="Machine Learning">Machine Learning (ML / Deep Learning)</option>
+                <option value="Data Analytics">Data Analytics &amp; Business Intel</option>
+                <option value="Python">Python Development (Core + Advanced)</option>
+                <option value="Data Visualization">Data Visualization (PowerBI / Tableau)</option>
+                <option value="General / Multiple Courses">General / Custom AI Track</option>
+              </select>
+            </div>
+            <div>
+              <label class="block font-label-ui text-label-ui text-on-surface-variant mb-1.5">
+                Preferred Learning Mode <span class="text-error">*</span>
+              </label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="flex items-center gap-2 p-2.5 bg-surface-container-lowest border border-outline-variant/40 rounded-lg cursor-pointer hover:border-primary transition">
+                  <input checked="" class="text-primary focus:ring-primary" name="learningMode" type="radio" value="Offline (Dehradun Campus)">
+                  <span class="font-body-sm text-body-sm text-on-surface">Offline Dehradun Campus</span>
+                </label>
+                <label class="flex items-center gap-2 p-2.5 bg-surface-container-lowest border border-outline-variant/40 rounded-lg cursor-pointer hover:border-primary transition">
+                  <input class="text-primary focus:ring-primary" name="learningMode" type="radio" value="Online (Live Interactive)">
+                  <span class="font-body-sm text-body-sm text-on-surface">Online Live</span>
+                </label>
+              </div>
+            </div>
+            <div>
+              <label class="block font-label-ui text-label-ui text-on-surface-variant mb-1.5" for="studentQuery">
+                Questions or Background
+              </label>
+              <textarea class="w-full bg-surface-container-lowest border border-outline-variant/60 rounded-lg px-4 py-2 text-on-surface placeholder-on-surface-variant/40 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition font-body-md text-body-md" id="studentQuery" placeholder="Tell us about your educational background or current role..." rows="2"></textarea>
+            </div>
+            <button class="w-full py-3.5 px-4 bg-tertiary-container hover:bg-tertiary text-on-tertiary-container hover:text-on-tertiary rounded-lg font-bold font-label-ui text-label-ui glow-emerald transition-all duration-200 flex items-center justify-center gap-2 shadow-lg active:scale-98" type="submit">
+              <span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 1;">chat</span>
+              <span class="">Send Enquiry via WhatsApp →</span>
+            </button>
+          </form>
+          <div class="mt-4 pt-3 border-t border-outline-variant/20 flex items-center justify-between text-xs font-label-mono-sm text-on-surface-variant">
+            <span class="">🔒 100% Privacy. No Spam.</span>
+            <span class="">Fast reply within 15 mins</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><section class="py-20 bg-surface-container-low border-t border-outline-variant/30 relative" id="contact">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary font-label-mono-sm text-label-mono-sm">
+<span class="">VISIT OUR LAB</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">
+            Experience the Patel Nagar Campus
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Drop by our Dehradun facility for a free career roadmap discussion, code evaluation session, and to inspect student live projects before taking admission.
+          </p>
+<div class="space-y-4 pt-2">
+<div class="flex items-start gap-4 p-4 rounded-lg bg-surface-container border border-outline-variant/30">
+<span class="material-symbols-outlined text-primary text-2xl mt-0.5">pin_drop</span>
+<div>
+<strong class="font-headline-sm text-sm text-on-surface block mb-1">Campus Location</strong>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  75/6, LiveDATA, Patel Nagar, Dehradun, Uttarakhand - 248001
+                </p>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-4 rounded-lg bg-surface-container border border-outline-variant/30 flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary text-2xl">call</span>
+<div>
+<span class="text-xs font-label-mono-sm text-on-surface-variant block">Primary Helpline</span>
+<a class="font-label-ui text-label-ui text-on-surface hover:text-primary font-semibold" href="tel:+919045667030">+91 9045667030</a>
+</div>
+</div>
+<div class="p-4 rounded-lg bg-surface-container border border-outline-variant/30 flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-2xl">support_agent</span>
+<div>
+<span class="text-xs font-label-mono-sm text-on-surface-variant block">Admissions Desk</span>
+<a class="font-label-ui text-label-ui text-on-surface hover:text-secondary font-semibold" href="tel:+917906644799">+91 7906644799</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Campus Card / Interactive Visual representation -->
+<div class="lg:col-span-6">
+<div class="bg-surface-container border border-outline-variant/40 rounded-xl p-8 relative overflow-hidden">
+<div class="flex items-center justify-between pb-6 border-b border-outline-variant/30">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-sm font-bold text-on-surface">Campus Operating Hours</h4>
+<span class="font-label-mono-sm text-label-mono-sm text-tertiary">Open for Visits Today</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-surface-container-high text-xs font-label-mono-sm text-on-surface-variant">Mon - Sat</span>
+</div>
+<div class="py-6 space-y-4">
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Morning Lab Batches</span>
+<span class="text-on-surface font-label-mono-sm">08:00 AM - 12:00 PM</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Afternoon Lab Batches</span>
+<span class="text-on-surface font-label-mono-sm">01:00 PM - 05:00 PM</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Evening Working Professional Track</span>
+<span class="text-on-surface font-label-mono-sm">06:00 PM - 08:30 PM</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Sunday Masterclasses &amp; Code Sprints</span>
+<span class="text-tertiary font-label-mono-sm">By Prior Registration</span>
+</div>
+</div>
+<div class="pt-4 border-t border-outline-variant/30">
+<a class="w-full py-3 bg-primary hover:bg-primary-fixed-dim text-surface-container-lowest font-bold rounded-lg flex items-center justify-center gap-2 font-label-ui text-label-ui transition" href="https://wa.me/919045667030?text=Hi%20LiveDATA,%20I%20would%20like%20to%20visit%20the%20Patel%20Nagar%20campus" target="_blank">
+<span class="material-symbols-outlined text-lg">calendar_month</span>
+<span class="">Schedule a Campus Walkthrough</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FOOTER (Shared Component Anchored) -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20">
+<div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+<!-- Brand & Mission -->
+<div class="space-y-4 md:col-span-1">
+<span class="font-headline-md text-headline-md font-bold text-on-surface dark:text-on-surface flex items-center gap-1">
+          Live<span class="text-primary">DATA</span>
+</span>
+<p class="text-on-surface-variant text-body-sm font-body-sm leading-relaxed">
+          The premier engineering laboratory in Dehradun &amp; Online for Agentic AI, Deep Learning, and Modern Data Science.
+        </p>
+<div class="pt-2 text-xs font-label-mono-sm text-outline">
+          Govt. Registered Institution &amp; ISO Aligned Quality Standard.
+        </div>
+</div>
+<!-- Quick Tracks -->
+<div class="space-y-3">
+<h5 class="font-headline-sm text-headline-sm text-on-surface font-bold text-sm">Key Programs</h5>
+<ul class="space-y-2">
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#courses">Agentic AI &amp; GenAI Track</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#courses">Data Science &amp; ML</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#courses">Python Development</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#courses">Data Visualization (BI)</a></li>
+</ul>
+</div>
+<!-- Institute Links -->
+<div class="space-y-3">
+<h5 class="font-headline-sm text-headline-sm text-on-surface font-bold text-sm">Institute &amp; Verification</h5>
+<ul class="space-y-2">
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#contact">Patel Nagar Campus Labs</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#placements">Student Placements</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#contact">Verify Certificate</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#">Terms of Admission</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-on-surface dark:text-on-surface-variant dark:hover:text-on-surface text-body-sm font-body-sm hover:underline transition-all duration-150" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<!-- Contact Helpline -->
+<div class="space-y-3">
+<h5 class="font-headline-sm text-headline-sm text-on-surface font-bold text-sm">Admissions Office</h5>
+<p class="text-body-sm font-body-sm text-on-surface-variant">
+          75/6, LiveDATA, Patel Nagar, Dehradun, Uttarakhand
+        </p>
+<p class="font-label-mono-sm text-label-mono-sm text-primary">
+          WhatsApp: +91 9045667030<br>
+          Direct: +91 7906644799
+        </p>
+<div class="pt-2">
+<a class="inline-block px-4 py-2 bg-surface-container border border-primary/30 text-primary rounded-lg text-xs font-label-ui hover:bg-primary hover:text-surface-container-lowest transition font-semibold" href="#enquiry-form">
+            Apply for Next Batch
+          </a>
+</div>
+</div>
+</div>
+<!-- Copyright Sub-bar -->
+<div class="border-t border-outline-variant/10 py-6">
+<div class="max-w-7xl mx-auto px-6 text-center text-on-surface-variant text-body-sm font-body-sm">
+        © 2025 LiveDATA Institute. Patel Nagar, Dehradun &amp; Online Live. All rights reserved.
+      </div>
+</div>
+</footer>
+<!-- FLOATING PINNED WHATSAPP ACTION BUTTON -->
+<aside aria-label="Quick WhatsApp Contact" class="fixed bottom-6 right-6 z-50">
+<a aria-label="Chat with LiveDATA on WhatsApp" class="flex items-center gap-2.5 bg-tertiary-container hover:bg-tertiary text-on-tertiary-container hover:text-on-tertiary font-bold px-4 py-3 rounded-full shadow-2xl glow-emerald active:scale-95 transition-all duration-200" href="https://wa.me/919045667030" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span class="font-label-ui text-label-ui pr-1 hidden sm:inline">Chat with Admissions</span>
+</a>
+</aside>
+<!-- INTERACTIVE VANILLA JAVASCRIPT LOGIC -->
+<script>
+    // Handles dynamic prefilling when user clicks "Enquire for Course"
+    function prefillCourse(courseName) {
+      const select = document.getElementById('courseTrack');
+      if (select) {
+        select.value = courseName;
+      }
+      const form = document.getElementById('enquire-form');
+      if (form) {
+        form.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Handles prefilling learning mode
+    function prefillMode(modeValue) {
+      const radios = document.getElementsByName('learningMode');
+      for (const radio of radios) {
+        if (radio.value === modeValue) {
+          radio.checked = true;
+          break;
+        }
+      }
+      const form = document.getElementById('enquire-form');
+      if (form) {
+        form.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Formats and submits the dynamic WhatsApp message
+    function handleEnquirySubmit(event) {
+      event.preventDefault();
+
+      const name = document.getElementById('studentName').value.trim();
+      const phone = document.getElementById('studentPhone').value.trim();
+      const email = document.getElementById('studentEmail').value.trim() || 'Not specified';
+      const course = document.getElementById('courseTrack').value;
+      
+      let mode = 'Offline (Dehradun Campus)';
+      const modeRadios = document.getElementsByName('learningMode');
+      for (const r of modeRadios) {
+        if (r.checked) {
+          mode = r.value;
+          break;
+        }
+      }
+
+      const query = document.getElementById('studentQuery').value.trim() || 'I would like to get syllabus details and batch timing.';
+
+      // Exact prescribed WhatsApp text structure
+      const formattedMessage = 
+`Hi LiveDATA, I would like to enquire about a course:
+*Name:* ${name}
+*Phone:* ${phone}
+*Email:* ${email}
+*Course:* ${course}
+*Mode:* ${mode}
+*Query:* ${query}`;
+
+      const encodedMessage = encodeURIComponent(formattedMessage);
+      const whatsappUrl = `https://wa.me/919045667030?text=${encodedMessage}`;
+
+      // Open WhatsApp in new tab
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+
+
+</body></html>
