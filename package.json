@@ -1,0 +1,10 @@
+{
+  "name": "livedata-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix live_data run dev",
+    "build": "npm --prefix live_data run build",
+    "preview": "npm --prefix live_data run preview",
+    "lint": "npm --prefix live_data run lint"
+  }
+}
