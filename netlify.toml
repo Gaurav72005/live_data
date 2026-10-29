@@ -1,0 +1,17 @@
+# Netlify configuration for live_data project
+
+[build]
+  # Directory where the frontend code lives
+  base = "Frontend"
+
+  # Directory that contains the deploy-ready build files relative to the base directory
+  publish = "dist"
+
+  # Default build command
+  command = "npm run build"
+
+# SPA redirect rule so page refreshes and direct links route to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
